@@ -11,6 +11,6 @@ public class SphereMover : MonoBehaviour
 
     private void Translate()
     {
-        transform.Translate(Vector3.forward * _speed * Time.deltaTime);
+        transform.Translate(Vector3.forward * (_speed * Time.deltaTime));
     }
 }

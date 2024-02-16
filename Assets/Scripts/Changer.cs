@@ -29,6 +29,6 @@ public class Changer : MonoBehaviour
 
     private void Translate()
     {
-        transform.Translate(Vector3.forward * _movementSpeed * Time.deltaTime);
+        transform.Translate(Vector3.forward * (_movementSpeed * Time.deltaTime));
     }
 }
