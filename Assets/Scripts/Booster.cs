@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CapsuleGrow : MonoBehaviour
+public class Booster : MonoBehaviour
 {
     [SerializeField] private float _growthSpeed;
 
